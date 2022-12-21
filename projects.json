@@ -24,5 +24,24 @@
         "link": "https://hyperz.net/discord"
       }
     ]
+  },
+  {
+    "name": "FirewallGG",
+    "logourl": "https://firewall.hyperz.net/assets/logo.png",
+    "description": "This is an API middleware that is allowing you to keep your Discord communities, Discord web based services, and much more secure to a new standard!",
+    "buttons": [
+      {
+        "name": "Website",
+        "link": "https://firewall.hyperz.net"
+      },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/itz-hyperz/firewallgg"
+      },
+      {
+        "name": "Package",
+        "link": "https://www.npmjs.com/package/firewallgg"
+      }
+    ]
   }
 ]
