@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Big Benjamin",
+    "logourl": "https://cdn.hyperz.net/u/main/OzkGa3D.png",
+    "description": "Hello there, I'm Big Benjamin, a bot that will notify you after every hour has passed and a new one begins! I'm here to help you keep track of the time!",
+    "buttons": [
+      {
+        "name": "Invite Bot",
+        "link": "https://discord.com/api/oauth2/authorize?client_id=999451301920374815&permissions=8&scope=bot%20applications.commands"
+      }
+    ]
+  },
+  {
+    "name": "Hyperz Development",
+    "logourl": "https://store.hyperz.net/assets/logo.png",
+    "description": "Full Stack Web Developer - Software Engineer - Graphic Designer. To contact me message me via Discord or Twitter!",
+    "buttons": [
+      {
+        "name": "Webstore",
+        "link": "https://store.hyperz.net"
+      },
+      {
+        "name": "Discord",
+        "link": "https://hyperz.net/discord"
+      }
+    ]
+  },
+]
