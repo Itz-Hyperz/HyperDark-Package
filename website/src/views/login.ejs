@@ -1,0 +1,42 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login - <%= config.sitesettings.sitename %></title>
+        <meta property="og:title" content="Login - <%= config.sitesettings.sitename %>" />
+        <link rel="icon" href="/assets/logo.png">
+        <meta property="og:image" content="/assets/logo.png">
+        <meta name="theme-color" content="<%= config.sitesettings.sitecolor %>">
+        <meta name="description" content="<%= config.sitesettings.sitedescription %>" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="<%= config.sitesettings.sitedescription %>" />
+    </head>
+    <body>
+        <%- include('_header') %>
+        <div class="container bg-dark p-4 mx-auto cloudauthmain">
+            <h1 class="bigfont mb-3"><i class="fa-solid fa-cloud"></i> Cloud Login</h1>
+            <div class="cloudauthinner mx-auto">
+                <form action="/auth/local" method="post">
+                    <input type="email" name="email" class="form-control bg-dark mb-2" placeholder="Email..." required>
+                    <input type="password" name="password" class="form-control bg-dark mb-2" placeholder="Password..." required>
+                    <button type="submit" class="btn btn-bgdark"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+                    <% if(messages.error) { %>
+                        <p class="text-danger"><%= messages.error %></p>
+                    <% }; %>
+                    <hr>
+                    <a href="/register" class="btn btn-bgdark"><i class="fa-solid fa-user-plus"></i> Register</a>
+                    <a href="/auth/discord" class="btn btn-discord"><i class="fa-brands fa-discord"></i> Discord</a>
+                    <div class="row justify-content-center mt-2">
+                        <div class="col-lg-6 mb-2">
+                            <a style="color: lightgrey;" href="/privacy">Privacy Policy</a>
+                        </div>
+                        <div class="col-lg-6 mb-2">
+                            <a style="color: lightgrey;" href="/cookies">Cookie Policy</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <%- include('_footer') %>
+    </body>
+</html>
