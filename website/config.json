@@ -1,0 +1,32 @@
+{
+
+    "domain": "http://localhost:3000",
+    "port": 3000,
+    "debugMode": true,
+
+    "sql": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "hyperzcloud"
+    },
+
+    "discord": {
+        "oauthId": "YOUR_CLIENT_ID",
+        "oauthToken": "YOUR_CLIENT_SECRET"
+    },
+
+    "sitesettings": {
+        "sitename": "Hyperz Cloud",
+        "sitedescription": "Hyperz Cloud is an easy to use, open-source, advanced workbench full of different tools and features to help manage and optimize your applications and documents!",
+        "sitecolor": "#0099ff"
+    },
+
+    "redirects": [
+        {
+            "name": "discord",
+            "link": "https://discord.gg/CQT4Vh937B"
+        }
+    ]
+
+}

@@ -1,0 +1,21 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Panel - <%= config.sitesettings.sitename %></title>
+        <meta property="og:title" content="Panel - <%= config.sitesettings.sitename %>" />
+        <link rel="icon" href="/assets/logo.png">
+        <meta property="og:image" content="/assets/logo.png">
+        <meta name="theme-color" content="<%= config.sitesettings.sitecolor %>">
+        <meta name="description" content="<%= config.sitesettings.sitedescription %>" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="<%= config.sitesettings.sitedescription %>" />
+    </head>
+    <body>
+        <%- include('_header') %>
+        <div class="container bg-dark p-3" style="border-radius: 0.4em;">
+            
+        </div>
+        <%- include('_footer') %>
+    </body>
+</html>
