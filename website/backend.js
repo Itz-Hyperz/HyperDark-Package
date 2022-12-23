@@ -84,11 +84,12 @@ async function authenticateUserLocal(email, password, done) {
 function generateUserId(length) {
     let result           = '';
     let characters       = '0123456789';
+    let date             = Date.now();
     let charactersLength = characters.length;
     for ( let i = 0; i < length; i++ ) {
         result += characters.charAt(Math.floor(Math.random() * charactersLength));
     }
-    return result;
+    return date + result;
 };
 
 async function refreshAppLocals(app) {
