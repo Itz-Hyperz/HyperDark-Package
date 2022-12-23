@@ -104,7 +104,9 @@ async function refreshAppLocals(app) {
     };
     app.locals = {
         config: config,
-        project: githubProjectsPull.data[await utils.getRandomArray(array)]
+        packagejson: require('./package.json'),
+        project: githubProjectsPull.data[await utils.getRandomArray(array)],
+        currentyear: await utils.fetchTime(config.timeZone.tz, 'YYYY')
     };
 };
 

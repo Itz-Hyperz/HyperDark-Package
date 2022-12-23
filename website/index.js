@@ -52,7 +52,7 @@ app.get('/panel', backend.checkAuth, function(req, res) {
             con.query(`SELECT * FROM entries WHERE userid="${req.user.userid}"`, async (err, row) => {
                 if(err) throw err;
                 let entries = row;
-                res.render('panel.ejs', { loggedIn: true, user: user, cats: cats, entries: entries });
+                res.render('panel.ejs', { loggedIn: true, user: user, cats: cats, entries: entries, currenttime: await utils.fetchTime(config.timeZone.tz, 'MM-DD-YYYY hh:mm A') });
             });
         });
     });
@@ -132,7 +132,7 @@ app.get('*', function(req, res){
 
 // Server Initialization
 app.listen(config.port)
-console.log(chalk.blue('HyperzCloud Started on Port ' + config.port));
+console.log(chalk.blue('Hyperz Cloud System Started on Port ' + config.port));
 
 // Rejection Handler
 process.on('unhandledRejection', (err) => { 

@@ -335,6 +335,66 @@ pre code {
     color: rgb(243, 243, 243);
 }
 
+.panelcolumnheight {
+    height: 34em;
+}
+
+.btn-outline-theme, .btn-theme:hover {
+    color: white !important;
+    background-color: transparent !important;
+}
+
+.btn-theme, .btn-theme:hover {
+    color: white !important;
+}
+
+.btn-theme2 {
+    color: white !important;
+    transition: border-color ease-in-out .3s;
+    border-width: 2px;
+}
+
+.btn-theme2:hover {
+    border-color: white !important;
+}
+
+.panelcategory {
+    background-color: #2c2c2c;
+    border: solid 5px;
+    height: 10em;
+    padding: 0.4em;
+}
+
+.fixedrowpanelheight {
+    height: 26em;
+    max-height: 26em;
+    overflow-y: auto;
+}
+
+.custombuttonspanelarea {
+    height: 5em;
+    max-height: 5em;
+    overflow-y: auto;
+}
+
+.categorybuttonpanel {
+    margin-top: 0.4em;
+    width: 100%;
+}
+
+.btnnostyle {
+    margin-top: 0 !important;
+    padding: 0 !important;
+    background-color: transparent !important;
+    border-style: none;
+    border-color: transparent;
+}
+
+.closebutton {
+    color: white;
+    font-size: 2em;
+}
+
 /* Scrollbar */
 /* width */
 ::-webkit-scrollbar {
