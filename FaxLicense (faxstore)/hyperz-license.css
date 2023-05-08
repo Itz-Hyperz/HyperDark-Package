@@ -1,0 +1,83 @@
+body {
+    background-color: #0C1017;
+}
+
+p {
+    color: white;
+}
+
+#main > .inner > header > .full:first-child {
+	background-color: #171A22;
+}
+
+#text04, #text07, #text05, #text03, #text06 {
+    color: white;
+}
+
+#table02 .table-inner table tbody tr td, #table02 .table-inner table thead tr th, #table02 .table-inner table tbody tr td .convertPara {
+    color: white;
+}
+
+#table02 .table-inner table tbody tr td a, #text02 a {
+    color: #0099ff;
+}
+
+#table02 {
+    margin-top: 0.4em;
+    background-color: #171A22;
+    border-radius: 0.4em;
+    padding: 1em;
+}
+
+#table02 thead {
+	border-bottom: solid 2px #ffffff;
+}
+
+#table02 tbody tr {
+	border-top: solid 1px rgba(255, 255, 255, 0.373);
+}
+
+#list01 ul li p a {
+    color: #0099ff;
+}
+
+#form01 button {
+	background-color: #0099ff;
+	color: #FFFFFF;
+}
+
+#form01 button:hover {
+	background-color: #1c1f29;
+}
+
+#form01 input[type="text"], #form01 input[type="email"], #form01 textarea, #form01 select, #form01 .file {
+	color: #FFFFFF;
+	border: solid 1px #0099ff;
+    background-color: #1c1f29;
+}
+
+#form01 input[type="text"]::placeholder {
+    color: #FFFFFF;
+}
+
+#form01 input[type="checkbox"] + label:before {
+	color: #FFFFFF;
+	border: solid 1px #0099ff;
+}
+
+#list01 ul li:before {
+	background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%2040%2040%22%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2220%22%20r%3D%2210%22%20fill%3D%22%23ffffff%22%20%2F%3E%3C%2Fsvg%3E');
+}
+
+#text02 {
+    color: white;
+}
+
+/*
+  _   _                              ____ ____ ____  
+ | | | |_   _ _ __   ___ _ __ ____  / ___/ ___/ ___| 
+ | |_| | | | | '_ \ / _ \ '__|_  / | |   \___ \___ \ 
+ |  _  | |_| | |_) |  __/ |   / /  | |___ ___) |__) |
+ |_| |_|\__, | .__/ \___|_|  /___|  \____|____/____/ 
+        |___/|_|                                     
+*/

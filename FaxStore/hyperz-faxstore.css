@@ -1,0 +1,392 @@
+#container01, #form01-search-website {
+	background-color: #171A22 !important;
+}
+
+#form01 button, 
+#form02 button, 
+#form03 button, 
+#form04 button, 
+#form05 button, 
+#form06 button, 
+#form07 button, 
+#form08 button, 
+#form09 button, 
+#form10 button, 
+#form11 button, 
+#form12 button, 
+#form13 button, 
+#form14 button, 
+#form15 button,
+#form16 button,
+#form17 button,
+#form18 button,
+#form19 button,
+#form20 button {
+    background-color: #171A22;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#form01 button:hover, 
+#form02 button:hover, 
+#form03 button:hover, 
+#form04 button:hover, 
+#form05 button:hover, 
+#form06 button:hover, 
+#form07 button:hover, 
+#form08 button:hover,  
+#form11 button:hover, 
+#form12 button:hover, 
+#form14 button:hover, 
+#form15 button:hover,
+#form16 button:hover,
+#form17 button:hover,
+#form18 button:hover,
+#form13 button:hover,
+#form09 button:hover,
+#form10 button:hover,
+#form19 button:hover,
+#form20 button:hover {
+    background-color: rgba(0, 153, 255, 0.8);
+}
+
+#form03 input[type="text"], #form03 input[type="email"], #form03 textarea, #form03 select, #form03 .file {
+	color: #FFFFFF;
+	background-color: #171A22;
+}
+
+.file:after {
+	width: 1.4rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	background-size: 0.7rem;
+	border-radius: 0.08rem;
+	background-color: #0099ff !important;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M36.1,22.7l-5.7,7.1c-0.3,0.4-0.8,0.7-1.4,1c-0.6,0.3-1.2,0.4-1.7,0.4H6.2c-0.7,0-1-0.2-1-0.7c0-0.2,0.1-0.5,0.4-0.8 l5.7-7.1c0.3-0.4,0.8-0.7,1.4-1c0.6-0.3,1.1-0.4,1.7-0.4h21.2c0.7,0,1,0.2,1,0.7C36.5,22.1,36.4,22.4,36.1,22.7z M11.6,19.4 c-0.9,0.4-1.7,1-2.3,1.7l-5,6.1V10.7c0-0.5,0.2-1,0.5-1.3C5.2,9,5.7,8.8,6.2,8.8h6.2c0.5,0,1,0.2,1.3,0.5c0.4,0.4,0.5,0.8,0.5,1.3 v1.2c0,0.5,0.2,1,0.5,1.3c0.4,0.4,0.8,0.5,1.3,0.5h11.2c0.5,0,1,0.2,1.3,0.5c0.4,0.4,0.5,0.8,0.5,1.3v3.1H14.3 C13.4,18.8,12.5,19,11.6,19.4z M38.7,20.6c-0.3-0.6-0.7-1.1-1.3-1.4c-0.6-0.3-1.2-0.5-1.9-0.5h-3.7v-3.1c0-1.2-0.4-2.2-1.3-3.1 s-1.9-1.3-3.1-1.3H16.8v-0.6c0-1.2-0.4-2.2-1.3-3.1c-0.9-0.9-1.9-1.3-3.1-1.3H6.2C5,6.3,4,6.7,3.1,7.6s-1.3,1.9-1.3,3.1v18.7 c0,1.2,0.4,2.2,1.3,3.1s1.9,1.3,3.1,1.3h21.2c0.9,0,1.8-0.2,2.7-0.7c0.9-0.4,1.7-1,2.3-1.7l5.7-7.1c0.6-0.8,0.9-1.5,0.9-2.3 C39,21.5,38.9,21,38.7,20.6z' fill='rgba(255,255,255,1)' /%3E%3C/svg%3E") !important;
+	bottom: 0.175rem;
+	right: 0.175rem;
+}
+
+#form10 select {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='504' height='552' preserveAspectRatio='none' viewBox='0 0 504 552'%3E%3Cpath d='M483.9,210.9L252,442.9L20.1,210.9l67.9-67.9L252,307.1l164.1-164.1L483.9,210.9z' fill='%230099ff' /%3E%3C/svg%3E");
+	background-position: calc(100% - 0.6125rem) center;
+	padding-right: 2.0625rem;
+}
+
+#buttons12 .button {
+    background-color: #171A22 !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+#buttons12 .button:hover {
+    background-color: #0C1017 !important;
+}
+
+#container15 #buttons05 li a {
+    background-color: #171A22 !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+#container15 #buttons05 li a:hover {
+    background-color: #0C1017 !important;
+}
+
+#user-section #buttons10 li .n01 {
+    background-color: #171A22 !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+#user-section #buttons10 li .n01:hover {
+    background-color: rgba(0, 153, 255, 0.8) !important;
+}
+
+#reviews-section #container24 div .convertPara .convertPara {
+    color: white;
+    transition: color 0.1s ease-in-out !important;
+}
+
+#reviews-section #container24 .wrapper .inner div .convertPara a:hover {
+    color: #0099ff !important;
+}
+
+#reviews-section #container24 div .convertPara .convertPara:hover {
+    color: #171A22 !important;
+}
+
+#reviews-section #buttons10 li .n01 {
+    background-color: #171A22 !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+#reviews-section #buttons10 li .n01:hover, #buttons06 .n02:hover {
+    background-color: rgba(0, 153, 255, 0.8) !important;
+}
+
+#form08 input[type="text"], #form08 input[type="email"], #form08 textarea, #form08 select, #form08 .file {
+	background-color: #171A22 !important;
+}
+
+#buttons10 .n01, #store-section .n01, #buttons09 .n01, #buttons09 .n02, #buttons06 .n01 {
+    background-color: #171A22 !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+#buttons10 .n01:hover, #store-section .n01:hover, #buttons09 .n01:hover, #buttons09 .n02:hover, #buttons06 .n01:hover {
+    background-color: #1f232e !important;
+}
+
+#buttons10 .n02, #store-section .n02, #buttons08 .n02, #buttons09 .n03, #buttons15 .n02, #buttons06 .n02 {
+    background-color: #171A22 !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+#buttons10 .n02:hover, #store-section .n02:hover, #buttons08 .n02:hover, #buttons09 .n03:hover, #buttons15 .n02:hover {
+    background-color: rgba(0, 153, 255, 0.8) !important;
+}
+
+#form10 input[type="text"], #form10 input[type="email"], #form10 textarea, #form10 select, #form10 .file {
+	color: #FFFFFF;
+	background-color: #171A22;
+}
+
+#container04 #buttons03 .n03:hover {
+    background-color: rgba(0, 138, 212, 0.5) !important;
+}
+
+#container04 #buttons03 .n04:hover {
+    background-color: rgba(212, 0, 0, 0.2) !important;
+}
+
+#container24 .wrapper .inner div #buttons08 .n01 {
+    background-color: rgba(212, 0, 0, 0.5) !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+#container24 .wrapper .inner div #buttons08 .n01:hover {
+    background-color: rgba(131, 0, 0, 0.5) !important;
+}
+
+.stripeButton {
+    background-color: rgba(0, 153, 255, 0.8) !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+.stripeButton:hover {
+    background-color: rgba(41,41,41,0.5) !important;
+}
+
+#form04 button {
+	background-color: rgba(0, 153, 255, 0.8);
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+#form04 button:hover {
+	background-color: rgba(41,41,41,0.31) !important;
+}
+
+#table13 a {
+	color: #0099ff;
+	text-decoration: none;
+}
+
+.userPageRows {
+	background-color: #171A22;
+}
+
+#form13 input[type="checkbox"] + label:before {
+	background-color: #171A22 !important;
+}
+
+.userNotes,
+#form13-comment,
+#form09-name,
+#fileInput-One,
+#form13-site-name,
+#form13-on-sale,
+#form13-accent-color-hex-color,
+#form13-site-description,
+#form13-credits,
+#form13-gallery,
+#form13-lic-system,
+#form13-linked,
+#form13-inaccount,
+#fileInput-One,
+#form13-discord-role,
+#form13price,
+#form13-discordRole,
+#form13-secPayeePayPal,
+#form13-secPayeeStripe,
+#form13-themes,
+#fileInput,
+#searchBox,
+#form13-demo {
+    background-color: #171A22 !important;
+}
+
+#form13 input[type="text"], #form13 input[type="email"], #form13 input[type="number"], #form13 textarea, #form13 select, #form13 input[type="password"], #form13 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form11 input[type="text"], #form11 input[type="email"], #form11 textarea, #form11 select, #form11 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form04 input[type="checkbox"] + label:before {
+	background-color: #171A22 !important;
+}
+
+#form09 input[type="text"], #form09 input[type="email"], #form09 textarea, #form09 select, #form09 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form05 input[type="text"], #form05 input[type="email"], #form05 textarea, #form05 select, #form05 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form17 input[type="text"], #form17 input[type="email"], #form17 textarea, #form17 select, #form17 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+} #text91::after { content: "\A | Theme by Hyperz#0001" !important; }
+
+#form14 input[type="text"], #form14 input[type="email"], #form14 textarea, #form14 select, #form14 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form09 input[type="text"], #form09 input[type="email"], #form09 textarea, #form09 select, #form09 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+} 
+
+#form12 input[type="text"], #form12 input[type="email"], #form12 textarea, #form12 select, #form12 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form04 input[type="text"], #form04 input[type="email"], #form04 textarea, #form04 select, #form04 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form16 input[type="text"], #form16 input[type="email"], #form16 textarea, #form16 select, #form16 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form19 input[type="text"], #form19 input[type="email"], #form19 textarea, #form19 select, #form19 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form19 input[type="text"], #form19 input[type="email"], #form19 textarea, #form19 select, #form19 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form06 input[type="text"], #form06 input[type="email"], #form06 textarea, #form06 select, #form06 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form20 input[type="text"], #form20 input[type="email"], #form20 textarea, #form20 select, #form20 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#form20 input[type="checkbox"] + label:before {
+	border-radius: 0.125rem;
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+	width: 1.21875rem;
+	height: 1.21875rem;
+	margin-right: 0.875rem;
+	background-size: 0.690625rem;
+}
+
+#form02 input[type="text"], #form02 input[type="email"], #form02 textarea, #form02 select, #form02 .file {
+	color: #FFFFFF;
+	background-color: #171A22 !important;
+}
+
+#table11 tr td a {
+    color: #0099ff !important;
+}
+
+.modal-content {
+	background-color: #0C1017 !important;
+	border-color: #171A22 !important;
+}
+
+#slideshow01 .bg {
+	background-color: #0C1017 !important;
+}
+
+#container19 .wrapper .inner div #buttons09 li .n01,
+#container21 .wrapper .inner div #buttons10 li .clickhover {
+	background-color: #171A22 !important;
+}
+
+#container19 .wrapper .inner div #buttons09 li .n01:hover,
+#container21 .wrapper .inner div #buttons10 li .clickhover:hover {
+	background-color: #0099ff !important;
+}
+
+#table13 .table-inner,
+#table05 .table-inner,
+#table06 .table-inner,
+#table07 .table-inner,
+#table09 .table-inner,
+#table01 .table-inner,
+#table12 .table-inner,
+#gallery01 .inner,
+#table11 .table-inner {
+	background-color: #171A22 !important;
+	border-radius: 0.4em;
+	padding: 1em;
+}
+
+#image04, #image09 {
+	background-color: #171A22 !important;
+	padding: 0.6em;
+	border-radius: 0.4em;
+}
+
+#form09 .inner {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+#cookieBar {
+	background-color: #171A22 !important;
+}
+
+#buttons01 .dropdown .dropdown-content a, #buttons03 .dropdown .dropdown-content a {
+	background-color: #171A22 !important;
+}
+
+#buttons01 .dropdown .dropdown-content a:hover, #buttons03 .dropdown .dropdown-content a:hover {
+	background-color: #212530 !important;
+}
+
+.releaseCollapseButton {
+    background-color: #171A22 !important;
+}
+
+#storestatbox {
+	background-color: #171A22;
+	border-color: #5f5f5f;
+    border-style: solid;
+    border-width: 4px;
+}
+
+/*
+  _   _                              ____ ____ ____  
+ | | | |_   _ _ __   ___ _ __ ____  / ___/ ___/ ___| 
+ | |_| | | | | '_ \ / _ \ '__|_  / | |   \___ \___ \ 
+ |  _  | |_| | |_) |  __/ |   / /  | |___ ___) |__) |
+ |_| |_|\__, | .__/ \___|_|  /___|  \____|____/____/ 
+        |___/|_|                                     
+*/
